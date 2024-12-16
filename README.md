@@ -5,8 +5,7 @@ Set up your project environment including MySQL database management system. We w
 
 # **PROJECT PROPOSAL** - Content, Scope and Objectives 
 ## Content
-The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer 
-receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
+The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
 
 The purpose of a database is to assist the park with improving their reservation system, monitoring occupancy in the RV park, and improving customer experience by reducing wait time. The database would automatically check for openings in the park and garage, reschedule if no openings are available, and confirm online bookings in real-time.  This will reduce the wait time for customers and allow employees to work on other duties in the park. Over time all customers can be encouraged to place requests online and to view the most current information.  In addition, a database can hold records for 
 employees, RVs visiting the park, their owners, service requests from the garage, parts on hand, and provide a method for increasing profits by targeting repeat customers with offers. 
@@ -65,7 +64,7 @@ View employee's information.
 ## **ER DIAGRAM**
 <img src="images/ERD.png "/>
 
-## VIEWS
+## **VIEWS**
 <img src="images/view1.png "/>
 <img src="images/view2.png "/>
 <img src="images/view3.png "/>
@@ -81,10 +80,13 @@ Adding Accounting Table
 - Automating weekly payroll
 - Automating invoicing
 - Automating revenue
+
 Inventory System
 - Parts for maintenance shop
 - Food / drinks for evening dinner
+
 Develop an application that uses the database
 Interface customer tables
 - Online view invoice real-time
 - Online reservations for customer
+
