@@ -2,7 +2,7 @@ Database Design and Implemention Project
 ============
 # **OBJECTIVE**
 Set up your project environment including MySQL database management system. We were not required to develop an application that uses your database. However, our setup must include a simple user interface in MySQL Workbench through which your database can be accessed and data storage, retrieval & other operations relevant to your application can be demonstrated, for example, through views or stored procedures for certain user roles.
-================
+
 # **PROJECT PROPOSAL**
 ## BACKGROUND & CONTENT
 The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
@@ -14,17 +14,7 @@ The project will begin with gathering information about the current and future n
 
 The project will take five weeks to complete.  The owner will be provided with weekly updates on the database setup.  The estimated cost is $0, since we are using an intern and open source system. 
 
-In summary, a database management system will be an asset to your business. 
-
-## SCOPE
-Develop a database to manage reservations, requests for maintenance, and customer data.  It will offer real-time updates and offer the opportunity to integrate the database into the online bookings generated from the park’s website. 
-=======
-## OBJECTIVE
-Create a comprehensive database system to manage reservations, site availability, and customer information. 
-
-## PROJECT ENVIRONMENT 
-For the project environment, we will be using the following:   
-Python 3.9 for scripting, MySQL Workbench for storing and managing the database management system.  This list is not exhaustive. 
+In summary, a database management system will be an asset to your business.  By developing a database to manage reservations, requests for maintenance, and customer data,  it will offer real-time updates and the opportunity to integrate the database into the online bookings generated from the park’s website. 
 
 ## **WHY RV PARK?**
 With our drive to work hard and play even harder, more and more Americans are looking at traveling the opens roads in a recreational vehicle, commonly called an RV.  The US market is expected to grow from 49.69 billion in 2024 to 69.23 billion by 2032*. 
@@ -37,7 +27,7 @@ Therefore, we created a RV park database to assist the owner.
 
 * https://www.fortunebusinessinsights.com/recreational-vehicles-rv-market-105474
 
-### PURPOSE OF DATABASE
+## PURPOSE OF DATABASE
 This database allows the owner to directly check the customer’s reservations, employee data, view invoices, and view revenue.
 Includes:
 View Employee / Position / Salary
@@ -51,31 +41,29 @@ Real-time supply ordering system
 Employee scheduling system
 And more…
 
-## MAIN USE CASES
 
-### **BUSINESS REQUIREMENTS, AND PRIORITIES**
-View daily revenue from RV park and maintenance shop.
-Track reservations and shop requests.
-View invoices.
-View employee's information.
-
-## **SCHEMA**
-Below are the schema's for Customer, Vehicle, and Reservation tables.  The customer table has an one to many relationship to the Rv Table and Reservation Table.  A customer can own more than one Rv that visits the park and create more than one reservation to the park.
+# **SCHEMA EXAMPLE**
+Below are the schema's for `Customer`, `Vehicle`, and `Reservation` tables.  The `Custome`r table has an one to many relationship to the `Vehicle` Table and `Reservation` Table.  A customer can own more than one Rv that visits the park and create more than one reservation to the park.
 <img src="images/schema.png "/>
 
-## **ER DIAGRAM**
+# **ER DIAGRAM**
+ER diagram for `Customer` table.
 <img src="images/ERD1.png "/>
+
+ER diagram for `Supplier`, `Government`, and `Employee` tables
 <img src="images/ERD2.png "/>
+
+ER diagram exported from MySQL desktop.
 <img src="images/ERD.png "/>
 
-## **VIEWS**
+# **VIEWS**
 <img src="images/view1.png "/>
 <img src="images/view2.png "/>
 <img src="images/view3.png "/>
 <img src="images/view5.png "/>
 
 
-## **FUTURE UPDATES**
+# **FUTURE UPDATES**
 Stored Programs
 - Menu 
 
