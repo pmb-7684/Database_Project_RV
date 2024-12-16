@@ -1,10 +1,9 @@
-# "Hit The road Jack RV Park"
 Database Design and Implemention Project
 ============
-# OBJECTIVE
+# **OBJECTIVE**
 Set up your project environment including MySQL database management system. We were not required to develop an application that uses your database. However, our setup must include a simple user interface in MySQL Workbench through which your database can be accessed and data storage, retrieval & other operations relevant to your application can be demonstrated, for example, through views or stored procedures for certain user roles.
 
-# PROJECT PROPOSAL - Content, Scope and Objectives 
+# **PROJECT PROPOSAL** - Content, Scope and Objectives 
 ## Content
 The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer 
 receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
@@ -28,7 +27,7 @@ Create a comprehensive database system to manage reservations, site availability
 For the project environment, we will be using the following:   
 Python 3.9 for scripting, MySQL Workbench for storing and managing the database management system.  This list is not exhaustive. 
 
-## WHY RV PARK?
+## **WHY RV PARK?**
 With our drive to work hard and play even harder, more and more Americans are looking at traveling the opens roads in a recreational vehicle, commonly called an RV.  The US market is expected to grow from 49.69 billion in 2024 to 69.23 billion by 2032*. 
 
 With this growth, RV owners need to have a place to park their home on wheels.
@@ -39,8 +38,8 @@ Therefore, we created a RV park database to assist the owner.
 
 * https://www.fortunebusinessinsights.com/recreational-vehicles-rv-market-105474
 
-## Main Use cases, roles, business requirements, and priorities
-### Purpose of 
+## **Main Use cases, roles, business requirements, and Priorities**
+### Purpose of Database
 This database allows the owner to directly check the customer’s reservations, employee data, view invoices, and view revenue.
 Includes:
 View Employee / Position / Salary
@@ -54,16 +53,16 @@ Real-time supply ordering system
 Employee scheduling system
 And more…
 
-### Requirements and Priorities
+### **Requirements and Priorities**
 View daily revenue from RV park and maintenance shop.
 Track reservations and shop requests.
 View invoices.
 View employee's information.
 
-## SCHEMA
+## **SCHEMA**
 <img src="images/schema.png "/>
 
-## ER DIAGRAM
+## **ER DIAGRAM**
 <img src="images/ERD.png "/>
 
 ## VIEWS
@@ -74,7 +73,7 @@ View employee's information.
 <img src="images/view5.png "/>
 
 
-## FUTURE UPDATES
+## **FUTURE UPDATES**
 Stored Programs
 - Menu 
 
