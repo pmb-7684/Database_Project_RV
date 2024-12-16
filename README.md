@@ -4,7 +4,7 @@
 Set up your project environment including MySQL database management system. We were not required to develop an application that uses your database. However, our setup must include a simple user interface in MySQL Workbench through which your database can be accessed and data storage, retrieval & other operations relevant to your application can be demonstrated, for example, through views or stored procedures for certain user roles.
 
 # **Project Proposal**
-## **Background & Content**
+### **Background & Content**
 The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
 
 The purpose of a database is to assist the park with improving their reservation system, monitoring occupancy in the RV park, and improving customer experience by reducing wait time. The database would automatically check for openings in the park and garage, reschedule if no openings are available, and confirm online bookings in real-time.  This will reduce the wait time for customers and allow employees to work on other duties in the park. Over time all customers can be encouraged to place requests online and to view the most current information.  In addition, a database can hold records for 
@@ -16,7 +16,7 @@ The project will take five weeks to complete.  The owner will be provided with w
 
 In summary, a database management system will be an asset to your business.  By developing a database to manage reservations, requests for maintenance, and customer data,  it will offer real-time updates and the opportunity to integrate the database into the online bookings generated from the park’s website. 
 
-## **Why RV Park ?**
+### **Why RV Park ?**
 With our drive to work hard and play even harder, more and more Americans are looking at traveling the opens roads in a recreational vehicle, commonly called an RV.  The US market is expected to grow from 49.69 billion in 2024 to 69.23 billion by 2032*. 
 
 With this growth, RV owners need to have a place to park their home on wheels.
@@ -27,7 +27,7 @@ Therefore, we created a RV park database to assist the owner.
 
 *https://www.fortunebusinessinsights.com/recreational-vehicles-rv-market-105474
 
-## Purpose of Database
+### **Purpose of Database**
 This database allows the owner to directly check the customer’s reservations, employee data, view invoices, and view revenue.
 Includes:
 View Employee / Position / Salary
@@ -57,9 +57,16 @@ ER diagram exported from MySQL desktop.
 <img src="images/ERD.png "/>
 
 # **VIEWS**
+Story view that allows owner to view information about the employees.
 <img src="images/view1.png "/>
+
+Story view that allows owner to view sales and customer who had their vehicle serviced.
 <img src="images/view2.png "/>
+
+Story view that allows owner to view charges per customer.
 <img src="images/view3.png "/>
+
+Story view that allows owner to view charges that are due to the suppliers and governemental entites.
 <img src="images/view5.png "/>
 
 
@@ -82,3 +89,6 @@ Interface customer tables
 - Online reservations for customer
 
 add color to the description
+
+
+Overall, this has been a great expereince creating my own database.  I plan to continue working on this project until I have it completes as planned including creating an online interface and addressing minor correction for handling `null` values by using `DEFAULT`.
