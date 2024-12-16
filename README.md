@@ -4,9 +4,7 @@ Database Design and Implemention Project
 # OBJECTIVE
 Set up your project environment including MySQL database management system. We were not required to develop an application that uses your database. However, our setup must include a simple user interface in MySQL Workbench through which your database can be accessed and data storage, retrieval & other operations relevant to your application can be demonstrated, for example, through views or stored procedures for certain user roles.
 
-
-# PROJECT PROPOSAL 
-# Content, Scope and Objectives 
+# PROJECT PROPOSAL - Content, Scope and Objectives 
 ## Content
 The fictional Hit the Road RV Park is situated on 50 acres in Western North Carolina.  The park contains recreational vehicle (RV) parking and a garage for maintenance.   Currently, whether a customer calls or places a reservation online, the request is manually recorded on a spreadsheet.  After a manual review, the customer 
 receives a call from an employee to confirm their request /booking or to help with rescheduling a visit for a different time.   
@@ -18,8 +16,7 @@ The project will begin with gathering information about the current and future n
 
 The project will take five weeks to complete.  The owner will be provided with weekly updates on the database setup.  The estimated cost is $0, since we are using an intern and open source system. 
 
-In summary, a database management system will be an asset to your 
-business. 
+In summary, a database management system will be an asset to your business. 
 
 ## Scope
 Develop a database to manage reservations, requests for maintenance, and customer data.  It will offer real-time updates and offer the opportunity to integrate the database into the online bookings generated from the park’s website. 
@@ -64,17 +61,17 @@ View invoices.
 View employee's information.
 
 ## SCHEMA
-<img src="schema.png "/>
+<img src="images/schema.png "/>
 
 ## ER DIAGRAM
-<img src="ERD.png "/>
+<img src="images/ERD.png "/>
 
 ## VIEWS
-<img src="view1.png "/>
-<img src="view2.png "/>
-<img src="view3.png "/>
-<img src="view4.png "/>
-<img src="view5.png "/>
+<img src="images/view1.png "/>
+<img src="images/view2.png "/>
+<img src="images/view3.png "/>
+<img src="images/view4.png "/>
+<img src="images/view5.png "/>
 
 
 ## FUTURE UPDATES
